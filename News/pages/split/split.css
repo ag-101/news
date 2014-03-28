@@ -95,23 +95,17 @@
         }
 
         .splitpage .articlesection header {
-            -ms-grid-columns: 180px 20px 1fr;
-            -ms-grid-rows: 180px;
-            display: -ms-grid;
-            margin-bottom: 20px;
+
+            margin-bottom: 10px;
         }
 
             .splitpage .articlesection header .text {
-                -ms-grid-column: 3;
+                text-align:right;
             }
 
-                .splitpage .articlesection header .text .article-title {
-                    margin-left:140px;
-                }
 
                 .splitpage .articlesection header .text .article-subtitle {
-                    margin-top: 4px;
-                    margin-left:140px;
+                    margin-top: 2px;
                 }
 
     .splitpage .article-image {

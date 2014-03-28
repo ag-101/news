@@ -116,7 +116,7 @@
     // Returns an array of sample data that can be added to the application's
     // data list. 
     function generateSampleData() {
-        var items = parseRSS(['http://www.engadget.com/rss-hd.xml', "http://feeds.bbci.co.uk/sport/0/formula1/rss.xml?edition=uk", "http://feeds.feedburner.com/f1fanatic", "http://feeds.feedburner.com/uk/gizmodo?format=xml"]);
+        var items = parseRSS([/*'http://www.engadget.com/rss-hd.xml', "http://feeds.bbci.co.uk/sport/0/formula1/rss.xml?edition=uk", "http://feeds.feedburner.com/f1fanatic",*/ "http://feeds.feedburner.com/uk/gizmodo?format=xml"]);
         return items;
     }
 })();
