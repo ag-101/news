@@ -4,11 +4,14 @@
     height: 100%;
     width: 100%;
 }
-
     .splitpage header[role=banner] {
         -ms-grid-column: 1;
         -ms-grid-column-span: 2;
     }
+
+header button {
+    cursor: pointer;
+}
 
         .splitpage header[role=banner] .pagetitle {
             overflow: hidden;
@@ -18,6 +21,8 @@
     .splitpage .itemlistsection {
         -ms-grid-column: 2;
         -ms-grid-row: 2;
+        margin-left:-90px;
+        margin-right:10px;
     }
 
         .splitpage .itemlistsection .itemlist {
@@ -83,10 +88,11 @@
         -ms-grid-row-span: 2;
         margin-top: 60px;
         overflow-y: auto;
-        padding-left: 60px;
-        padding-right: 66px;
+        padding-left: 0px;
+        padding-right: 16px;
         position: relative;
         z-index: 0;
+        text-align:justify;
     }
 
         .splitpage .articlesection:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
@@ -100,12 +106,15 @@
         }
 
             .splitpage .articlesection header .text {
-                text-align:right;
+                text-align:center; margin-bottom: 2px;
+                font-weight:bold;
             }
 
 
                 .splitpage .articlesection header .text .article-subtitle {
-                    margin-top: 2px;
+                    color:#999;
+                    font-weight:normal;
+                    text-align:right;
                 }
 
     .splitpage .article-image {
@@ -121,7 +130,7 @@
             margin:auto;
             max-width:800px;
             background:url(/images/50-transparent-black.png);
-            padding:50px;
+            padding:3%;
             border:1px solid #333;
         }
 
@@ -132,7 +141,7 @@
         border:1px solid #333;
         color:white;
         font-weight:bold;
-        padding:50px;
+        padding:10px 3%;
         display:block;
         text-align:center;
     }
@@ -171,5 +180,6 @@
             -ms-grid-row: 2;
             -ms-grid-row-span: 1;
             margin-top: 12px;
+            margin-left:-40px;
         }
 }

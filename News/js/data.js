@@ -7,12 +7,6 @@
         function groupDataSelector(item) { return item.group; }
     );
 
-    // TODO: Replace the data with your real data.
-    // You can add data from asynchronous sources whenever it becomes available.
-    generateSampleData().forEach(function (item) {
-        list.push(item);
-    });
-
     WinJS.Namespace.define("Data", {
         items: groupedItems,
         groups: groupedItems.groups,
@@ -50,73 +44,87 @@
         }
     }
 
-    function loadXMLDoc(filename) {
-        var xhttp = new XMLHttpRequest();
-        xhttp.open("GET", filename, false);
-        xhttp.send();
-        return xhttp.responseXML;
-    }
-
     function addUrlCss(image) {
         image = "url(" + image + ")";
         return image;
     }
 
-    function parseRSS(xmlDocs) {
-        var results = [];
-        var count = 0;
+    function remove_tags(input) {
+        return input.replace(/<(?!\s*\/?\s*p\b)[^>]*>/gi, '');
+    }
 
-        xmlDocs.forEach(function (xmlDoc) {
-            var xmlDoc = loadXMLDoc(xmlDoc);
-            var groupDescription = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+    function retrieve_items(xmlDoc, count) {
+        var xhttp = new XMLHttpRequest();
 
-            var feedImage = "";
-            if (xmlDoc.getElementsByTagName("url").length) {
-               feedImage = xmlDoc.getElementsByTagName("url")[0].childNodes[0].nodeValue;
-            }
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState === 4) {
+                if (xhttp.status == 200 && xhttp.responseXML) {
+                    var xmlDoc = xhttp.responseXML;
 
-            var link = xmlDoc.getElementsByTagName("link")[0].childNodes[0].nodeValue;
+                    var groupDescription = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 
-            var displayGroups = [
-                { key: "group" + count, title: groupDescription, subtitle: link, backgroundImage: addUrlCss(feedImage), description: groupDescription }
-            ];
+                    var feedImage = "";
+                    if (xmlDoc.getElementsByTagName("url").length) {
+                        feedImage = xmlDoc.getElementsByTagName("url")[0].childNodes[0].nodeValue;
+                    }
 
-            var items = xmlDoc.getElementsByTagName("item");
+                    var link = xmlDoc.getElementsByTagName("link")[0].childNodes[0].nodeValue;
 
-            for (var i = 0; i < items.length; i++) {
-                var item = items[i];
-                var title = item.getElementsByTagName("title")[0].textContent;
-                var content = item.getElementsByTagName("description")[0].textContent;
-                var link = item.getElementsByTagName("link")[0].textContent;
-                var pubdate = item.getElementsByTagName("pubDate")[0].textContent;
+                    var displayGroups = [
+                        { key: "group" + count, title: groupDescription, subtitle: link, backgroundImage: addUrlCss(feedImage), description: groupDescription }
+                    ];
 
-                var div = document.createElement('div');
-                div.id = "tempContent";
-                div.innerHTML = content;
-                var firstImage = div.getElementsByTagName('img')[0];
-                $("#tempContent").remove();
-                var image = firstImage ? firstImage.src : "";
+                    var items = xmlDoc.getElementsByTagName("item");
 
+                    for (var i = 0; i < items.length; i++) {
+                        var item = items[i];
+                        var title = item.getElementsByTagName("title")[0].textContent;
+                        var content = item.getElementsByTagName("description")[0].textContent;
+                        var link = item.getElementsByTagName("link")[0].textContent;
+                        var pubdate = item.getElementsByTagName("pubDate")[0].textContent;
 
-                if (!image) {
-                    image = feedImage;
+                        var div = document.createElement('div');
+                        div.id = "tempContent";
+                        div.innerHTML = content;
+                        var firstImage = div.getElementsByTagName('img')[0];
+
+                        
+                        $("#tempContent").remove();
+                        var image = firstImage ? firstImage.src : "";
+
+                        if (!image && item.getElementsByTagNameNS("*", "thumbnail")[0]) {
+                            var images = item.getElementsByTagNameNS("*", "thumbnail");
+                            image = images[images.length-1].getAttribute('url');
+                        }
+
+                        if (!image) {
+                            image = feedImage;
+                        }
+
+                        list.push({ group: displayGroups[0], title: title, articleImage: image, backgroundImage: addUrlCss(image), subtitle: pubdate, link: link, content: remove_tags(div.innerHTML) });
+                    }
+                } else {
+                    // error loading feed
+                    return false
                 }
-                // or, if you want the unresolved src, as it appears in the original HTML:
-                //  var rawImgSrc = firstImage ? firstImage.getAttribute("src") : "";
-
-                results.push({ group: displayGroups[0], title: title, articleImage:image, backgroundImage: addUrlCss(image), subtitle: pubdate, link: link, content: div.innerText });
-
             }
-            ++count;
+        };
+
+        xhttp.open("GET", xmlDoc, true);
+        try {
+            xhttp.send();
+        }
+        catch (e) {
+            xhttp.abort();
+            return false;
+        }
+    }
+
+    function loadFeeds(xmlDocs) {
+        xmlDocs.forEach(function (xmlDoc, index) {
+            retrieve_items(xmlDoc, index);
         });
-
-        return results;
     }
 
-    // Returns an array of sample data that can be added to the application's
-    // data list. 
-    function generateSampleData() {
-        var items = parseRSS([/*'http://www.engadget.com/rss-hd.xml', "http://feeds.bbci.co.uk/sport/0/formula1/rss.xml?edition=uk", "http://feeds.feedburner.com/f1fanatic",*/ "http://feeds.feedburner.com/uk/gizmodo?format=xml"]);
-        return items;
-    }
+    loadFeeds(["/xml/engadget.xml", "/xml/bbcf1.xml"]);
 })();

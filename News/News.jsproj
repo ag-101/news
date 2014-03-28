@@ -76,6 +76,10 @@
     <Content Include="pages\split\split.html" />
     <Content Include="pages\split\split.js" />
     <Content Include="default.html" />
+    <Content Include="xml\bbcf1.xml" />
+    <Content Include="xml\engadget.xml" />
+    <Content Include="xml\f1fanatic.xml" />
+    <Content Include="xml\gizmodo.xml" />
     <None Include="News_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
