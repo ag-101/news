@@ -2,6 +2,16 @@
     "use strict";
 
     var list = new WinJS.Binding.List();
+
+    $(document).ready(function () {
+        $('body').on('click', '.refresh_feeds', function () {
+            var list = new WinJS.Binding.List(list);
+            loadFeeds(["/xml/engadget.xml", "/xml/f1fanatic.xml"]);
+            list.notifyReload();
+
+        });
+    });
+
     var groupedItems = list.createGrouped(
         function groupKeySelector(item) { return item.group.key; },
         function groupDataSelector(item) { return item.group; }

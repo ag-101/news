@@ -72,6 +72,10 @@
     <Content Include="pages\items\items.css" />
     <Content Include="pages\items\items.html" />
     <Content Include="pages\items\items.js" />
+    <Content Include="pages\settings\subscriptions.html" />
+    <Content Include="pages\settings\subscriptions.js" />
+    <Content Include="pages\settings\preferences.html" />
+    <Content Include="pages\settings\preferences.js" />
     <Content Include="pages\split\split.css" />
     <Content Include="pages\split\split.html" />
     <Content Include="pages\split\split.js" />

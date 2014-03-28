@@ -3,6 +3,8 @@
 
     var ui = WinJS.UI;
 
+
+
     ui.Pages.define("/pages/items/items.html", {
         // This function is called to initialize the page.
         init: function (element, options) {

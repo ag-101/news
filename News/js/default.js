@@ -1,5 +1,18 @@
 ﻿// For an introduction to the Split template, see the following documentation:
 // http://go.microsoft.com/fwlink/?LinkID=232447
+
+
+function popup(message_heading, message_body) {
+    if (message_heading == undefined) {
+        message_heading = "Empty message";
+    }
+    if (message_body == undefined) {
+        message_body = "";
+    }
+    var msg = new Windows.UI.Popups.MessageDialog(message_heading, message_body);
+    msg.showAsync();
+}
+
 (function () {
     "use strict";
 
@@ -8,6 +21,26 @@
     var nav = WinJS.Navigation;
     var sched = WinJS.Utilities.Scheduler;
     var ui = WinJS.UI;
+
+
+
+
+    $(document).ready(function () {
+        $('body').on('click', '.sidebar_button', function () {
+            var type = $(this).prop('id').split('_');
+            WinJS.UI.SettingsFlyout.showSettings(type[1], "/pages/settings/"+type[1]+".html");
+        });
+
+        WinJS.Application.onsettings = function (e) {
+            e.detail.applicationcommands = {
+                "preferences": { title: "Preferences", href: "/pages/settings/preferences.html" },
+                "subscriptions": { title: "Subscriptions", href: "/pages/settings/subscriptions.html" }
+            };
+            WinJS.UI.SettingsFlyout.populateSettings(e);
+        };
+        // Make sure the following is called after the DOM has initialized. Typically this would be part of app initialization
+        WinJS.Application.start();
+    });
 
     app.addEventListener("activated", function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
