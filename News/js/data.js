@@ -2,18 +2,33 @@
     "use strict";
 
     var list = new WinJS.Binding.List();
+    var displayGroups = [];
+
+  //  feeds.push(['bbc f1 video', '/xml/bbcf1video.xml']);
+   // feeds.push(['engadget', "/xml/engadget.xml"]);
+    // feeds.push(['bbc f1', "/xml/bbcf1.xml"]);
+
 
     $(document).ready(function () {
         $('body').on('click', '.refresh_feeds', function () {
-            var list = new WinJS.Binding.List(list);
-            loadFeeds(["/xml/engadget.xml", "/xml/f1fanatic.xml"]);
-            list.notifyReload();
+            $('.manual_refresh').addClass('hidden');
+            $('.back-button').click();
+            var appBar = document.getElementById("appbar").winControl;
+            appBar.hide();
+
+            setTimeout(function () {
+                list.splice(0, list.length);
+                feeds = [];
+                displayGroups = [];
+                loadFeeds();
+            }, 1);
+
 
         });
     });
 
     var groupedItems = list.createGrouped(
-        function groupKeySelector(item) { return item.group.key; },
+        function groupKeySelector(item) { if (item.group) { return item.group.key; } else { return false; } },
         function groupDataSelector(item) { return item.group; }
     );
 
@@ -59,11 +74,7 @@
         return image;
     }
 
-    function remove_tags(input) {
-        return input.replace(/<(?!\s*\/?\s*p\b)[^>]*>/gi, '');
-    }
-
-    function retrieve_items(xmlDoc, count) {
+    function retrieve_items(feed, count) {
         var xhttp = new XMLHttpRequest();
 
         xhttp.onreadystatechange = function () {
@@ -78,28 +89,27 @@
                         feedImage = xmlDoc.getElementsByTagName("url")[0].childNodes[0].nodeValue;
                     }
 
-                    var link = xmlDoc.getElementsByTagName("link")[0].childNodes[0].nodeValue;
+                    
 
-                    var displayGroups = [
-                        { key: "group" + count, title: groupDescription, subtitle: link, backgroundImage: addUrlCss(feedImage), description: groupDescription }
-                    ];
+                    displayGroups.push({ key: "group" + count, title: feed[0], subtitle: groupDescription, backgroundImage: addUrlCss(feedImage), description: groupDescription });
 
                     var items = xmlDoc.getElementsByTagName("item");
 
                     for (var i = 0; i < items.length; i++) {
                         var item = items[i];
                         var title = item.getElementsByTagName("title")[0].textContent;
-                        var content = item.getElementsByTagName("description")[0].textContent;
+                        var content = $.parseHTML(toStaticHTML(item.getElementsByTagName("description")[0].textContent));
                         var link = item.getElementsByTagName("link")[0].textContent;
                         var pubdate = item.getElementsByTagName("pubDate")[0].textContent;
 
-                        var div = document.createElement('div');
-                        div.id = "tempContent";
-                        div.innerHTML = content;
-                        var firstImage = div.getElementsByTagName('img')[0];
+                        pubdate = new Date(pubdate);
 
-                        
-                        $("#tempContent").remove();
+                        var months = Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                        pubdate = pubdate.getDate() + " " + months[pubdate.getMonth()] + " " + pubdate.getFullYear()+", "+pubdate.getHours()+":"+pubdate.getMinutes();
+
+
+                        var firstImage = $(content).find('img')[0];
+
                         var image = firstImage ? firstImage.src : "";
 
                         if (!image && item.getElementsByTagNameNS("*", "thumbnail")[0]) {
@@ -111,16 +121,31 @@
                             image = feedImage;
                         }
 
-                        list.push({ group: displayGroups[0], title: title, articleImage: image, backgroundImage: addUrlCss(image), subtitle: pubdate, link: link, content: remove_tags(div.innerHTML) });
+                        $(content).find('*').not('p, a, br, span').contents().unwrap();
+                        $(content).find('*').not('p, a, br, span').remove();
+
+                        var parsed_content = "";
+                        $(content).each(function () {
+                            if ($(this).html() != undefined) {
+                                parsed_content += "<p>" + toStaticHTML($(this).html()) + "</p>";
+                            } else {
+                                parsed_content += "<p>" + $(this).text() + "</p>";
+                            }
+                        });
+         
+                        list.push({ group: displayGroups[count], title: title, articleImage: image, backgroundImage: addUrlCss(image), subtitle: pubdate, link: link, content: parsed_content });
                     }
                 } else {
-                    // error loading feed
+                    popup("It was not possible to load this feed.  It has now been removed from your library.", feed[0]);
+                    var position = feeds.indexOf(count);
+                    feeds.splice(position, 1);
+                    save_feeds(false);
                     return false
                 }
             }
         };
 
-        xhttp.open("GET", xmlDoc, true);
+        xhttp.open("GET", feed[1], true);
         try {
             xhttp.send();
         }
@@ -130,11 +155,20 @@
         }
     }
 
-    function loadFeeds(xmlDocs) {
-        xmlDocs.forEach(function (xmlDoc, index) {
-            retrieve_items(xmlDoc, index);
-        });
+    function loadFeeds() {
+        if (appData.values["feeds"]) {
+            feeds = JSON.parse(appData.values["feeds"]);
+        }
+        if (typeof feeds === 'string' || feeds == undefined || feeds.length == 0) {
+            popup("Swipe up from the bottom of the screen or right click to manage your subscriptions.","No feeds");
+        } else{
+            feeds.forEach(function (feed, index) {
+                if (feed[1] && feed[0]) {
+                    retrieve_items(feed, index);
+                }
+            });
+        }
     }
 
-    loadFeeds(["/xml/engadget.xml", "/xml/bbcf1.xml"]);
+    loadFeeds();
 })();

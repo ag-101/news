@@ -28,7 +28,7 @@
         cursor:pointer;
     }
 
-        .itemspage .itemslist .item .item-image {58
+        .itemspage .itemslist .item .item-image {
             -ms-grid-row-span: 2;
         }
 
@@ -57,4 +57,6 @@
     .itemspage .itemslist .item .item-overlay {
         color: WindowText;
     }
+
+
 }

@@ -12,6 +12,20 @@ body {
     color: white;
 }
 
+.hidden {
+    display: none !important;
+}
+
+.block {
+    display: block;
+    margin:10px 0;
+    width:100%;
+}
+
+button {
+    cursor: pointer;
+}
+
 .item-image, .article-image {
     background-position:center;
     background-size:cover;

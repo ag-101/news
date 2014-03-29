@@ -42,6 +42,18 @@
                 var listView = element.querySelector(".itemlist").winControl;
                 listView.selection.set(Math.max(this._itemSelectionIndex, 0));
             }
+
+
+    
+
+            $('body').on('click', '.load-article-iframe', function (e) {
+                $(this).parents('article').find('.webview').prop('src', $(this).prop('href'));
+                $(this).parents('article').find('.webview').prop('height', $(document).height() - 280);
+                $(this).parents('article').find('.webview').removeClass('hidden');
+                $(this).parents('article').find('.article-content').addClass('hidden');
+                $(this).addClass('hidden');
+                e.preventDefault();
+            });
         },
 
         unload: function () {
@@ -109,6 +121,9 @@
         },
 
         _selectionChanged: function (args) {
+            $('.load-article-iframe, .article-content').removeClass('hidden');
+            $('.webview').addClass('hidden');
+
             var listView = args.currentTarget.winControl;
             var details;
             // By default, the selection is restriced to a single item.
@@ -120,6 +135,8 @@
                         // selected item's details.
                         setImmediate(function () {
                             nav.navigate("/pages/split/split.html", { groupKey: this._group.key, selectedIndex: this._itemSelectionIndex });
+                            $('.load-article-iframe, .article-content').show();
+                            $('.webview').prop('height', 0);
                         }.bind(this));
                     } else {
                         // If fullscreen or filled, update the details column with new data.
@@ -129,6 +146,7 @@
                     }
                 }
             }.bind(this));
+
         },
 
         // This function toggles visibility of the two columns based on the current

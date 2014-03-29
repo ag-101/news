@@ -135,7 +135,7 @@ header button {
             border:1px solid #333;
         }
 
-    .splitpage .load-article {
+    .splitpage .load-article, .splitpage .load-article-iframe {
         background:url(/images/75-transparent-black.png);
         margin:auto;
         max-width:800px;
@@ -147,7 +147,11 @@ header button {
         text-align:center;
     }
 
-        .splitpage .load-article:hover {
+.splitpage .webview {
+    width:100%;
+}
+
+        .splitpage .load-article:hover, .splitpage .load-article-iframe:hover {
             background:url(/images/75-transparent-white.png);
             border-color:white;
             color:#333;

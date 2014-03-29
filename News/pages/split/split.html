@@ -29,7 +29,7 @@
     <!-- The content that will be loaded and displayed. -->
     <div class="splitpage fragment">
         <header aria-label="Header content" role="banner">
-            <button data-win-control="WinJS.UI.BackButton"></button>
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
             <h1 class="titlearea win-type-ellipsis">
                 <span class="pagetitle"></span>
             </h1>
@@ -55,11 +55,14 @@
                         <h2 class="article-title win-type-ellipsis" data-win-bind="textContent: title"></h2>
                     </div>
                 </header>
+                <x-ms-webview class="webview" height="0"></x-ms-webview> 
+                <a href="" data-win-bind="href: link" class="load-article-iframe">Load full article</a>
+
                 <div class="article-content">
                     <img src="" class="article-image" data-win-bind="src: articleImage"/>
                     <div class="article-text" data-win-bind="innerHTML: content"></div>
                 </div>
-                <a href="" data-win-bind="href: link" class="load-article">Load full article</a>
+                <a href="" data-win-bind="href: link" class="load-article">Load article in external browser</a>
             </article>
         </div>
     </div>

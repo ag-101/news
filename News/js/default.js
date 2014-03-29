@@ -1,7 +1,8 @@
 ﻿// For an introduction to the Split template, see the following documentation:
 // http://go.microsoft.com/fwlink/?LinkID=232447
 
-
+var feeds = [];
+var appData = Windows.Storage.ApplicationData.current.roamingSettings;
 function popup(message_heading, message_body) {
     if (message_heading == undefined) {
         message_heading = "Empty message";
@@ -9,8 +10,16 @@ function popup(message_heading, message_body) {
     if (message_body == undefined) {
         message_body = "";
     }
-    var msg = new Windows.UI.Popups.MessageDialog(message_heading, message_body);
-    msg.showAsync();
+    var msg = new Windows.UI.Popups.MessageDialog(message_heading, message_body).showAsync();
+}
+
+function save_feeds(refresh) {
+    appData.values["feeds"] = JSON.stringify(feeds);
+    if (refresh) {
+        $('.refresh_feeds').click();
+    } else {
+        $('.manual_refresh').removeClass('hidden');
+    }
 }
 
 (function () {

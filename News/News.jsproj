@@ -72,6 +72,9 @@
     <Content Include="pages\items\items.css" />
     <Content Include="pages\items\items.html" />
     <Content Include="pages\items\items.js" />
+    <Content Include="pages\library\library.css" />
+    <Content Include="pages\library\library.html" />
+    <Content Include="pages\library\library.js" />
     <Content Include="pages\settings\subscriptions.html" />
     <Content Include="pages\settings\subscriptions.js" />
     <Content Include="pages\settings\preferences.html" />
@@ -81,9 +84,8 @@
     <Content Include="pages\split\split.js" />
     <Content Include="default.html" />
     <Content Include="xml\bbcf1.xml" />
+    <Content Include="xml\bbcf1video.xml" />
     <Content Include="xml\engadget.xml" />
-    <Content Include="xml\f1fanatic.xml" />
-    <Content Include="xml\gizmodo.xml" />
     <None Include="News_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
