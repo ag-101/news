@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">  
+  <channel> 
+    <title>BBC Sport - Formula 1 AV</title>  
+    <link>http://www.bbc.co.uk/sport/0/audiovideo/formula-1-av/</link>  
+    <description>The latest stories from the Formula 1 AV section of the BBC Sport web site.</description>  
+    <language>en-gb</language>  
+    <lastBuildDate>Sat, 29 Mar 2014 12:52:46 GMT</lastBuildDate>  
+    <copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.</copyright>  
+    <image> 
+      <url>http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif</url>  
+      <title>BBC Sport - Formula 1 AV</title>  
+      <link>http://www.bbc.co.uk/sport/0/audiovideo/formula-1-av/</link>  
+      <width>120</width>  
+      <height>60</height> 
+    </image>  
+    <ttl>15</ttl>  
+    <atom:link href="http://feeds.bbci.co.uk/sport/0/audiovideo/formula-1-av/rss.xml" rel="self" type="application/rss+xml"/>  
+    <item> 
+      <title>VIDEO: Highlights: Hamilton beats Vettel to pole</title>  
+      <description>Mercedes' Lewis Hamilton pips Red Bull's Sebastian Vettel to pole position in a wet qualifying session at the Malaysian GP.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26800895</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26800895</guid>  
+      <pubDate>Sat, 29 Mar 2014 11:59:40 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73896000/jpg/_73896665_73896658.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73896000/jpg/_73896666_73896658.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton 'proud' to match GB record</title>  
+      <description>Mercedes' Lewis Hamilton says he wants to convert poles into wins after qualifying fastest at the Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula-one/26798529</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula-one/26798529</guid>  
+      <pubDate>Sat, 29 Mar 2014 11:26:48 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73896000/jpg/_73896336_mmmotf1hamiltonreax.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73896000/jpg/_73896337_mmmotf1hamiltonreax.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Pole was there for the taking - Vettel</title>  
+      <description>Red Bull's Sebastian Vettel believes pole position was there for the taking despite only qualifying second fastest for the Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula-one/26798530</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula-one/26798530</guid>  
+      <pubDate>Sat, 29 Mar 2014 11:54:22 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73896000/jpg/_73896514_mmmotf1vettelreax.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73896000/jpg/_73896515_mmmotf1vettelreax.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton's pole lap in Malaysia rain</title>  
+      <description>Lewis Hamilton grabs his second successive pole for Mercedes in qualifying in the rain at the Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula-one/26798527</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula-one/26798527</guid>  
+      <pubDate>Sat, 29 Mar 2014 10:48:37 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73895000/jpg/_73895686_mmmotf1hamiltonmalaysiapole.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73895000/jpg/_73895778_mmmotf1hamiltonmalaysiapole.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Rain hits Malaysian Grand Prix</title>  
+      <description>Heavy rain brought disruption to qualifying at Sepang on Saturday, can we expect more of the same on Sunday? Elizabeth Saary takes a look.</description>  
+      <link>http://www.bbc.co.uk/weather/features/26801051</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/weather/features/26801051</guid>  
+      <pubDate>Sat, 29 Mar 2014 12:43:25 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/73897000/jpg/_73897354_f1malaysia.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73897000/jpg/_73897355_f1malaysia.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Webber: Getting cooked in an F1 car</title>  
+      <description>Former Formula 1 driver Mark Webber shows how he used to prepare for racing in extreme heat and humidity to prevent him "getting cooked in the car".</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26798524</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26798524</guid>  
+      <pubDate>Sat, 29 Mar 2014 08:51:49 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73894000/jpg/_73894330_mmmotf1hotwebber.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73894000/jpg/_73894582_mmmotf1hotwebber.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Dramatic crash ends Ericsson's wet debut</title>  
+      <description>Caterham's Marcus Ericsson gets out of shape on the exit of Turn Three and runs onto the grass, before clattering into the barrier and spinning across the track.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26785009</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26785009</guid>  
+      <pubDate>Sat, 29 Mar 2014 09:51:10 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73894000/jpg/_73894944_mmmotf1ericssoncrash2.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73894000/jpg/_73894945_mmmotf1ericssoncrash2.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Everything you need to know on Sepang</title>  
+      <description>BBC Sport assesses what makes the Sepang International Circuit, home of the Malaysian Grand Prix, so special.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26756571</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26756571</guid>  
+      <pubDate>Thu, 27 Mar 2014 06:36:19 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73872000/jpg/_73872920_141869310.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73872000/jpg/_73872921_141869310.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: 'Professor Rosberg' explains F1 turbos</title>  
+      <description>Mercedes driver Nico Rosberg explains the physics of Formula 1's new turbo engines to BBC Sport's Lee McKenzie.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26756573</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26756573</guid>  
+      <pubDate>Thu, 27 Mar 2014 06:40:00 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73835000/jpg/_73835859_rosberg.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73835000/jpg/_73835860_rosberg.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Rosberg fastest in second practice</title>  
+      <description>Watch highlights as Mercedes driver Nico Rosberg beats Ferrari's Kimi Raikkonen to set the fastest time in second practice at the Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26781529</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26781529</guid>  
+      <pubDate>Fri, 28 Mar 2014 08:56:38 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73872000/jpg/_73872265_73870353.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73872000/jpg/_73872266_73870353.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: The pill that takes drivers' temperature</title>  
+      <description>Mark Webber meets Dr Simon Sostaric to talk about the pill that drivers take to measure their core temperature during hot Formula 1 races.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26774863</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26774863</guid>  
+      <pubDate>Fri, 28 Mar 2014 06:39:06 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73874000/png/_73874399_mmf1webberpill.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73874000/png/_73874400_mmf1webberpill.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton sets pace in first practice</title>  
+      <description>Watch highlights as Mercedes driver Lewis Hamilton sets the pace from Ferrari's Kimi Raikkonen during first practice at the Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26781527</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26781527</guid>  
+      <pubDate>Fri, 28 Mar 2014 05:16:52 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73870000/jpg/_73870332_73870327.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73870000/jpg/_73870344_73870327.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Sepang tough circuit for McLaren - Button</title>  
+      <description>Jenson Button is hopeful McLaren will keep improving this weekend in Sepang but plays down his chances of being able to win this weekend's Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26768655</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26768655</guid>  
+      <pubDate>Thu, 27 Mar 2014 14:24:38 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73854000/jpg/_73854381_buttonstill.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73854000/jpg/_73854382_buttonstill.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Malaysian F1 Grand Prix</title>  
+      <description>From qualifying to race day, Ian Fergusson takes a look at the weather prospects in Sepang this weekend.</description>  
+      <link>http://www.bbc.co.uk/weather/feeds/26779718</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/weather/feeds/26779718</guid>  
+      <pubDate>Thu, 27 Mar 2014 19:25:03 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/73867000/jpg/_73867214_ianf1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73867000/jpg/_73867215_ianf1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Webber &amp; Vettel do battle in Malaysia</title>  
+      <description>Red Bull's Sebastian Vettel ignores team orders as he battles with team-mate Mark Webber for the lead of the 2013 Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/21915619</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/21915619</guid>  
+      <pubDate>Sun, 24 Mar 2013 11:45:14 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/66576000/jpg/_66576992_redbullbattle.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/66577000/jpg/_66577590_redbullbattle.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Highlights: Vettel wins in Malaysia</title>  
+      <description>Watch race highlights as Red Bull's Sebastian Vettel ignores team orders and overtakes his team-mate Mark Webber to win the Malaysian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/21909717</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/21909717</guid>  
+      <pubDate>Sun, 24 Mar 2013 11:45:31 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/66578000/jpg/_66578197_vettel_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/66578000/jpg/_66578940_vettel_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Coulthard swaps pit lane for cockpit</title>  
+      <description>BBC F1 co-commentator David Coulthard swaps the pit lane for the cock pit as he takes a ride in a Royal Australian Air Force jet.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26718375</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26718375</guid>  
+      <pubDate>Mon, 24 Mar 2014 15:17:34 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73778000/png/_73778227_mmmotf1coulthardwithraf.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73778000/png/_73778228_mmmotf1coulthardwithraf.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Classic F1 - Malaysia 2009</title>  
+      <description>Jenson Button wins the Malaysian Grand Prix as the race is abandoned because of heavy rain. (UK users only)</description>  
+      <link>http://news.bbc.co.uk/sport1/hi/motorsport/formula_one/7984339.stm#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/sport1/hi/motorsport/formula_one/7984339.stm</guid>  
+      <pubDate>Sun, 05 Apr 2009 11:59:35 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/45636000/jpg/_45636145_spray3_av66.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/59254000/jpg/_59254792_button522.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: BBC pundits on Ricciardo exclusion</title>  
+      <description>David Coulthard and Allan McNish on the exclusion of Red Bull's Daniel Ricciardo from the Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26600449</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26600449</guid>  
+      <pubDate>Sun, 16 Mar 2014 14:39:33 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73615000/jpg/_73615698_73615690.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73615000/jpg/_73615739_73615690.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Horner surprised by Ricciardo exclusion</title>  
+      <description>Red Bull team principal Christian Horner says his team will appeal after Daniel Ricciardo was excluded from the Australian Grand Prix after breaching fuel consumption rules.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26600446</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26600446</guid>  
+      <pubDate>Sun, 16 Mar 2014 14:12:48 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73615000/jpg/_73615504_mmf1hornerreactionv1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73615000/jpg/_73615659_mmf1hornerreactionv1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Mercedes speed is cool - Rosberg</title>  
+      <description>Nico Rosberg says driving a "dominant" car for the first time in his F1 career is "so cool" after winning the Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26599690</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26599690</guid>  
+      <pubDate>Sun, 16 Mar 2014 13:37:34 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73614000/jpg/_73614873_rosberg.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73614000/jpg/_73614874_rosberg.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton &amp; Vettel explain retirements</title>  
+      <description>Lewis Hamilton and Sebastian Vettel explain their unfortunate starts to the Formula 1 season after they were both forced to retire early on during the season-opening Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26599687</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26599687</guid>  
+      <pubDate>Sun, 16 Mar 2014 09:45:55 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73616000/jpg/_73616527_hamilton.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73616000/jpg/_73616528_hamilton.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Formula 1 2014: Sculpted from scratch</title>  
+      <description>Idris Elba narrates BBC Sport's opening sequence for the 2014 Formula 1 season which sees the sport go back to the drawing board and start from scratch.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26600444</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26600444</guid>  
+      <pubDate>Sun, 16 Mar 2014 11:49:09 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73612000/jpg/_73612647_mmf1ausscupltedopenerv1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73612000/jpg/_73612648_mmf1ausscupltedopenerv1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton stopped by security in pits</title>  
+      <description>Mercedes driver Lewis Hamilton is stopped by a security guard as he makes his way to the pits at the Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26581646</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26581646</guid>  
+      <pubDate>Fri, 14 Mar 2014 14:05:56 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73600000/png/_73600115_hamiltonpits.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73600000/png/_73600116_hamiltonpits.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1's spectacular season openers</title>  
+      <description>BBC Sport looks back at some of Formula 1's most spectacular opening races as the start of the 2014 season approaches.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26353304</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26353304</guid>  
+      <pubDate>Tue, 11 Mar 2014 06:50:10 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73227000/jpg/_73227092_1575533.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73227000/jpg/_73227093_1575533.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 preview: Who has best driver line-up?</title>  
+      <description>Suzi Perry is joined by David Coulthard, Ben Edwards and Allan McNish to discuss a whole range of topics ahead of the new Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26510322</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26510322</guid>  
+      <pubDate>Wed, 12 Mar 2014 06:14:32 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73494000/jpg/_73494391_73494386.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73494000/jpg/_73494392_73494386.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 preview: 'Ugly' cars &amp; double points</title>  
+      <description>Suzi Perry is joined by David Coulthard, Ben Edwards and Allan McNish to discuss a whole range of topics ahead of the new Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26510321</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26510321</guid>  
+      <pubDate>Tue, 11 Mar 2014 06:24:04 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73492000/jpg/_73492070_73492062.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73492000/jpg/_73492071_73492062.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton or Button 'can win title'</title>  
+      <description>Suzi Perry is joined by David Coulthard, Ben Edwards and Allan McNish to discuss Lewis Hamilton and Jenson Button's title hopes in the new Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26510323</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26510323</guid>  
+      <pubDate>Thu, 13 Mar 2014 06:57:15 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73508000/jpg/_73508607_73508599.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73508000/jpg/_73508608_73508599.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1: Driver wars &amp; comeback kids</title>  
+      <description>Suzi Perry is joined by David Coulthard, Ben Edwards and Allan McNish to discuss a whole range of topics ahead of the new Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26510324</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26510324</guid>  
+      <pubDate>Fri, 14 Mar 2014 07:44:46 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73509000/jpg/_73509010_73509005.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73511000/jpg/_73511864_73509005.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: The best &amp; worst of Raikkonen at Ferrari</title>  
+      <description>BBC Sport looks back at Kimi Raikkonen's previous spell at Ferrari, as he prepares to start his first season back with the team.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26439392</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26439392</guid>  
+      <pubDate>Wed, 12 Mar 2014 06:27:46 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73367000/jpg/_73367376_raikkonen1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73367000/jpg/_73367377_raikkonen1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Highlights: Rosberg wins in Australia</title>  
+      <description>Watch highlights as Nico Rosberg delivers on Mercedes' promise as favourites, with a dominant victory in the season-opening Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26600441</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26600441</guid>  
+      <pubDate>Sun, 16 Mar 2014 09:45:12 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73611000/jpg/_73611577_73611569.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73611000/jpg/_73611578_73611569.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: McNish explains 2014 rule changes</title>  
+      <description>BBC Sport's Allan McNish explains Formula 1's "biggest rule change in a generation".</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26592631</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26592631</guid>  
+      <pubDate>Sat, 15 Mar 2014 13:51:28 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73600000/jpg/_73600656_mcnish.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73600000/jpg/_73600657_mcnish.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Inside F1 - Australian GP qualifying</title>  
+      <description>BBC Sport's Lee McKenzie and David Coulthard are joined by Red Bull Racing's Christian Horner to discuss a thrilling Australian Grand Prix qualifying session.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26592637</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26592637</guid>  
+      <pubDate>Sat, 15 Mar 2014 17:12:42 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73604000/jpg/_73604675_insidef12.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73604000/jpg/_73604676_insidef12.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton describes 'incredible' pole lap</title>  
+      <description>Lewis Hamilton describes his "incredible feeling" after claiming pole position in a thrilling wet qualifying session for the Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26591172</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26591172</guid>  
+      <pubDate>Sat, 15 Mar 2014 09:00:52 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73601000/jpg/_73601139_hamilton.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73601000/jpg/_73601140_hamilton.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Vettel booed after early Australia exit</title>  
+      <description>Sebastian Vettel is booed by the Australian Grand Prix crowd after suffering an early exit from a wet qualifying session at Melbourne's Albert Park.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26591174</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26591174</guid>  
+      <pubDate>Sat, 15 Mar 2014 09:01:03 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73599000/jpg/_73599695_vettelexit2.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73599000/jpg/_73599696_vettelexit2.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton quickest in Australia qualifying</title>  
+      <description>Mercedes driver Lewis Hamilton steals a last-ditch pole position in a thrilling wet qualifying session at the Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26591177</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26591177</guid>  
+      <pubDate>Sat, 15 Mar 2014 09:18:26 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73599000/jpg/_73599713_478814543.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73599000/jpg/_73599846_478814543.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Ricciardo &amp; rookies shine in qualifying</title>  
+      <description>Red Bull Racing's Daniel Ricciardo says taking second place for the season-opening Australian Grand Prix is "by far" his best qualifying session to date in Formula 1.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26592634</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26592634</guid>  
+      <pubDate>Sat, 15 Mar 2014 13:19:01 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73602000/jpg/_73602334_ricciardo.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73602000/jpg/_73602335_ricciardo.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton upbeat after 'difficult day'</title>  
+      <description>Mercedes driver Lewis Hamilton says it was a "difficult day" after Friday's practice sessions for the Australian Grand Prix, but he feels "positive" about a strong race.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26577497</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26577497</guid>  
+      <pubDate>Fri, 14 Mar 2014 12:27:48 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73582000/png/_73582141_hamilton.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73582000/png/_73582142_hamilton.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton sets pace in practice two</title>  
+      <description>Watch highlights as Lewis Hamilton heads Nico Rosberg to a Mercedes one-two in second practice at the season-opening Australian GP.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26573372</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26573372</guid>  
+      <pubDate>Fri, 14 Mar 2014 08:30:43 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73575000/jpg/_73575226_73573556.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73575000/jpg/_73575227_73573556.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 drivers on the season opener</title>  
+      <description>F1 drivers including Lewis Hamilton, Sebastian Vettel &amp; Jenson Button look ahead to the season-opening Australian Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26556936</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26556936</guid>  
+      <pubDate>Thu, 13 Mar 2014 11:49:07 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73555000/jpg/_73555538_vettel.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73555000/jpg/_73555569_vettel.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Alonso surprise fastest in P1</title>  
+      <description>Ferrari's Fernando Alonso is fastest in the first practice for the Australian GP in Melbourne, while Lewis Hamilton breaks down on his first lap.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26573369</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26573369</guid>  
+      <pubDate>Fri, 14 Mar 2014 05:17:36 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73584000/png/_73584934_alonso.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73584000/png/_73584935_alonso.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Inside F1: Australian GP practice</title>  
+      <description>Lee McKenzie is joined by Allan McNish for Inside F1 as they review Friday's practice sessions and look ahead to what the season-opener in Australia might bring.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26577504</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26577504</guid>  
+      <pubDate>Fri, 14 Mar 2014 13:12:30 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73584000/png/_73584085_insidef1.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73584000/png/_73584086_insidef1.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 - What makes Australia so special?</title>  
+      <description>BBC Sport looks back at some of the Australian Grand Prix's most exciting moments.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26353305</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26353305</guid>  
+      <pubDate>Thu, 13 Mar 2014 06:37:02 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73227000/jpg/_73227539_melbourne1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73227000/jpg/_73227540_melbourne1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton 'more fired-up than ever'</title>  
+      <description>Mercedes driver Lewis Hamilton says he's 'more fired-up than ever' ahead of the 2014 Formula 1 season opener in Melbourne, Australia.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula-one/26516956</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula-one/26516956</guid>  
+      <pubDate>Mon, 10 Mar 2014 16:07:21 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73481000/png/_73481876_mmmotf1hamilton103.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73486000/png/_73486481_mmmotf1hamilton103.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 preview: What has testing taught us?</title>  
+      <description>Suzi Perry is joined by David Coulthard, Ben Edwards and Allan McNish to discuss a whole range of topics ahead of the new Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26510320</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26510320</guid>  
+      <pubDate>Mon, 10 Mar 2014 06:52:46 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73500000/jpg/_73500970_vettel_mm_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73500000/jpg/_73500971_vettel_mm_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 testing final day round-up</title>  
+      <description>BBC Sport's Tom Clarkson reports on the final day of pre-season testing in Bahrain, where Mercedes' Lewis Hamilton set the pace.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26411810</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26411810</guid>  
+      <pubDate>Mon, 03 Mar 2014 06:37:45 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73320000/jpg/_73320176_476104857.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73320000/jpg/_73320177_476104857.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Vettel in a spin in Bahrain test</title>  
+      <description>Red Bull's Sebastian Vettel spins off the track to bring out a red flag during day four of Formula 1 testing in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula-one/26406283</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula-one/26406283</guid>  
+      <pubDate>Sun, 02 Mar 2014 11:39:25 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73312000/jpg/_73312195_mmmotf1vettelspinbahrain.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73312000/jpg/_73312196_mmmotf1vettelspinbahrain.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Red Bull test problems continue</title>  
+      <description>Red Bull's problems ahead of the new Formula 1 season continue on day three of testing in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/football/26402538</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/football/26402538</guid>  
+      <pubDate>Sat, 01 Mar 2014 21:18:37 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73308000/png/_73308466_vettel.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73308000/png/_73308467_vettel.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Red Bull on back foot - Horner</title>  
+      <description>Team Principal Christian Horner admits Red Bull Racing are "on the back foot" but says he is "confident" of resolving their reliability problems ahead of the first race in Melbourne.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26398147</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26398147</guid>  
+      <pubDate>Sat, 01 Mar 2014 13:15:11 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73299000/jpg/_73299330_motf1bahrainhornerintv1-3.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73299000/jpg/_73299331_motf1bahrainhornerintv1-3.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: F1 testing summary - Bahrain day two</title>  
+      <description>Lewis Hamilton, Jenson Button and Fernando Alonso review day two of the final pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26385133</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26385133</guid>  
+      <pubDate>Sat, 01 Mar 2014 00:11:26 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73298000/png/_73298626_mmmotbahrainclarksonpgke282.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73298000/png/_73298627_mmmotbahrainclarksonpgke282.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Two or three stops per race - Pirelli</title>  
+      <description>Pirelli's Paul Hembery believes Formula 1 cars will make "two or three stops" during races in 2014 after analysing data from the latest test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26385395</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26385395</guid>  
+      <pubDate>Fri, 28 Feb 2014 15:49:01 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73285000/jpg/_73285642_motf1hemberyintv28-2.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73285000/jpg/_73285643_motf1hemberyintv28-2.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: 2014 season will be challenging - Alonso</title>  
+      <description>BBC Sport's Jennie Gow reports from day two of the second pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26276837</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26276837</guid>  
+      <pubDate>Thu, 20 Feb 2014 17:59:32 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73151000/jpg/_73151009_mmf1bahraintestingday2still.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73151000/jpg/_73151010_mmf1bahraintestingday2still.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Button 'excited' by new F1 season</title>  
+      <description>BBC Sport's Jennie Gow reports from day three of the second pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26291604</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26291604</guid>  
+      <pubDate>Fri, 21 Feb 2014 18:08:29 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73146000/jpg/_73146111_mmf1bahrainroundup210214still.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73146000/jpg/_73146112_mmf1bahrainroundup210214still.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Best work of the winter - Ricciardo</title>  
+      <description>Red Bull's Daniel Ricciardo says that day one of the final pre-season test in Bahrain was his team's "best work of the winter".</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26366159</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26366159</guid>  
+      <pubDate>Thu, 27 Feb 2014 18:13:24 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73267000/jpg/_73267542_ricciardo_mm_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73267000/jpg/_73267543_ricciardo_mm_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Winners &amp; losers from Bahrain test</title>  
+      <description>BBC Sport's Jennie Gow reports on who the winners and losers have been from the second pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26306263</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26306263</guid>  
+      <pubDate>Sat, 22 Feb 2014 16:58:12 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73158000/jpg/_73158419_f1testgetty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73158000/jpg/_73158420_f1testgetty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Behind-the-scenes at Bahrain F1 test</title>  
+      <description>BBC Sport's Jennie Gow goes behind-the-scenes at the second Formula 1 pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26303657</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26303657</guid>  
+      <pubDate>Sat, 22 Feb 2014 14:12:40 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73155000/png/_73155197_jenniegow.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73155000/png/_73155198_jenniegow.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Vettel breaks down during testing</title>  
+      <description>Sebastian Vettel's Red Bull stops on the track during pre-season testing in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26256985</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26256985</guid>  
+      <pubDate>Wed, 19 Feb 2014 14:55:29 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73090000/png/_73090029_vettelone.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73090000/png/_73090030_vettelone.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Ecclestone 'relieved' as F1 case ends</title>  
+      <description>Formula 1 boss Bernie Ecclestone says he is "relieved" after a judge rejected an £85m damages claim against him over a sale of F1 shares.</description>  
+      <link>http://www.bbc.co.uk/news/uk-26279647#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-26279647</guid>  
+      <pubDate>Thu, 20 Feb 2014 16:33:09 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/73116000/jpg/_73116872_opwbut6q.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73116000/jpg/_73116873_opwbut6q.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Pat Symonds on complex 2014 cars</title>  
+      <description>Williams's chief technical officer Pat Symonds says getting used to the new 2014 technical specifications in F1 has been "character building".</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26291596</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26291596</guid>  
+      <pubDate>Fri, 21 Feb 2014 12:44:48 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73135000/jpg/_73135791_mmf1patsymondsstill.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73135000/jpg/_73135792_mmf1patsymondsstill.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton satisfied with Bahrain testing</title>  
+      <description>BBC Sport's Jennie Gow reports from day one of the second pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26266425</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26266425</guid>  
+      <pubDate>Wed, 19 Feb 2014 20:51:12 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73097000/png/_73097311_mmmotf1gowpkgpic.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73097000/png/_73097312_mmmotf1gowpkgpic.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Lotus reveal new F1 car in Bahrain</title>  
+      <description>Lotus become the final team to run their 2014 Formula 1 car in public, in the second pre-season test in Bahrain.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/26256984</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/26256984</guid>  
+      <pubDate>Wed, 19 Feb 2014 10:54:06 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/73088000/jpg/_73088627_lotusgetty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/73088000/jpg/_73088628_lotusgetty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Winners &amp; losers from Jerez testing</title>  
+      <description>BBC F1 commentator Ben Edwards gives his thoughts on the winners and losers from the first Formula 1 winter test in Jerez.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25979882</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25979882</guid>  
+      <pubDate>Fri, 31 Jan 2014 18:46:07 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/72685000/jpg/_72685906_magnussen_mm_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/72685000/jpg/_72685907_magnussen_mm_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Latest from F1 winter testing</title>  
+      <description>BBC Sport's Lee McKenzie and Ben Edwards bring the latest from the third day of pre-season F1 testing in Jerez.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25971235</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25971235</guid>  
+      <pubDate>Thu, 30 Jan 2014 18:46:28 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/72638000/jpg/_72638850_hamilton_mm_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/72638000/jpg/_72638851_hamilton_mm_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: New-look F1 cars take to the track</title>  
+      <description>BBC Sport's Lee McKenzie and Ben Edwards assess the first Formula 1 test of the season as the team's cars go on track for the first time.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25949765</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25949765</guid>  
+      <pubDate>Wed, 29 Jan 2014 17:41:18 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/72631000/jpg/_72631557_mmmotf12014f1carsonshowv3.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/72631000/jpg/_72631558_mmmotf12014f1carsonshowv3.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton 'heart in mouth' after crash</title>  
+      <description>Lewis Hamilton says it was a "great feeling to get back in the car" after the first day of testing for the 2014 Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25933093</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25933093</guid>  
+      <pubDate>Tue, 28 Jan 2014 17:20:37 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/72579000/jpg/_72579282_motf1hamilton28-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/72579000/jpg/_72579283_motf1hamilton28-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: A guide to F1's 2014 rule changes</title>  
+      <description>BBC Sport's Tom Clarkson guides us through the rule changes that come into force in the 2014 Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25069959</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25069959</guid>  
+      <pubDate>Tue, 03 Dec 2013 10:33:53 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71494000/jpg/_71494269_f12014%26apos%3Bsrulechanges.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71494000/jpg/_71494270_f12014%26apos%3Bsrulechanges.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Formula 1: The best moments of 2013</title>  
+      <description>BBC Sport takes a look back at some of the most memorable moments of the 2013 Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25055879</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25055879</guid>  
+      <pubDate>Fri, 22 Nov 2013 17:38:35 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71292000/jpg/_71292354_f1_season_review_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71292000/jpg/_71292355_f1_season_review_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Formula 1's best overtakes of 2013</title>  
+      <description>BBC Sport looks back at some of the most exciting overtaking manoeuvres from the 2013 Formula 1 season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25476335</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25476335</guid>  
+      <pubDate>Tue, 31 Dec 2013 11:01:39 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71897000/jpg/_71897161_180036077.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71897000/jpg/_71897162_180036077.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: 2014 is time to deliver - Alonso</title>  
+      <description>Fernando Alonso says it is "time to deliver" for Ferrari in 2014 and believes he is in "the best team to win next year".</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25080469</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25080469</guid>  
+      <pubDate>Wed, 27 Nov 2013 09:58:58 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71315000/jpg/_71315483_mmmotf1alonsointbrazil.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71315000/jpg/_71315484_mmmotf1alonsointbrazil.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: New F1 regulations 'will help Vettel'</title>  
+      <description>Mark Webber says Formula 1's new regulations in 2014 will be "perfect" for four-time world champion Sebastian Vettel to continue his dominance of the sport.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25339358</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25339358</guid>  
+      <pubDate>Fri, 13 Dec 2013 06:59:09 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71686000/jpg/_71686782_motf1webberintv.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71686000/jpg/_71686783_motf1webberintv.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: The 2013 F1 season's closing credits</title>  
+      <description>Public Service Broadcasting play out the 2013 Formula 1 season's credits on the BBC.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/25080476</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/25080476</guid>  
+      <pubDate>Sun, 24 Nov 2013 18:42:27 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71317000/jpg/_71317841_credits.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71317000/jpg/_71317842_credits.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Best action from Vettel's amazing year</title>  
+      <description>BBC Sport tells the story of Sebastian Vettel's journey to the 2013 Formula 1 world championship title.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/24644462</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/24644462</guid>  
+      <pubDate>Thu, 24 Oct 2013 11:39:33 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/70678000/jpg/_70678349_184306424.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/70678000/jpg/_70678350_184306424.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Watch Hamilton fly with Red Arrows</title>  
+      <description>Watch Lewis Hamilton team up with the Red Arrows, as he fulfils a lifelong ambition to fly with the famous aerobatic team.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/23117741</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/23117741</guid>  
+      <pubDate>Sun, 30 Jun 2013 12:38:30 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/68464000/jpg/_68464743_hamiltonredarrows.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/68464000/jpg/_68464745_hamiltonredarrows.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: McLaren veterans race classic cars</title>  
+      <description>Former McLaren team-mates David Coulthard and Mika Hakkinen reunite to race some of the team's iconic cars.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/24007749</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/24007749</guid>  
+      <pubDate>Thu, 12 Sep 2013 09:15:19 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69720000/jpg/_69720991_mmmotf1mcclarenfeature.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69720000/jpg/_69720993_mmmotf1mcclarenfeature.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Button drives F1 car in home town</title>  
+      <description>Thousands of people turned out to see the Formula 1 driving ace Jenson Button drive his McLaren though his home town.</description>  
+      <link>http://www.bbc.co.uk/news/uk-england-somerset-25167148#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-england-somerset-25167148</guid>  
+      <pubDate>Sat, 30 Nov 2013 13:37:29 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/71447000/jpg/_71447671_71446838.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71447000/jpg/_71447672_71446838.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Hamilton meets Sir Stirling Moss</title>  
+      <description>Former Mercedes driver Stirling Moss says that Lewis Hamilton can win the world championship as long as his former team provide him with a competitive car.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/22820626</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/22820626</guid>  
+      <pubDate>Fri, 07 Jun 2013 20:00:47 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/68049000/png/_68049271_mmf1hamilton%2Bmoss.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/68049000/png/_68049273_mmf1hamilton%2Bmoss.png"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Vettel mimics Raikkonen radio rant</title>  
+      <description>Sebastian Vettel mimics Kimi Raikkonen's amusing radio messages of 12 months earlier after winning the Abu Dhabi Grand Prix.</description>  
+      <link>http://www.bbc.co.uk/sport/0/24796310</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/24796310</guid>  
+      <pubDate>Sun, 03 Nov 2013 19:06:55 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/70882000/jpg/_70882327_vettelon-board.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/70882000/jpg/_70882328_vettelon-board.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Vettel wins overseas Sports Personality</title>  
+      <description>Sebastian Vettel wins the BBC Overseas Sports Personality of the Year after winning his fourth successive Formula 1 World Championship.</description>  
+      <link>http://www.bbc.co.uk/sport/0/sports-personality/25395318</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/sports-personality/25395318</guid>  
+      <pubDate>Sun, 15 Dec 2013 21:53:30 GMT</pubDate>  
+      <media:thumbnail width="66" height="37" url="http://news.bbcimg.co.uk/media/images/71759000/png/_71759297_mmspotyoverseasaward.png"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/71759000/png/_71759298_mmspotyoverseasaward.png"/> 
+    </item> 
+  </channel> 
+</rss>
