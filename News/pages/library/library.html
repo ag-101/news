@@ -11,9 +11,9 @@
     <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
 
     <link href="/css/default.css" rel="stylesheet" />
-    <link href="/pages/library.css" rel="stylesheet" />
+    <link href="/pages/library/library.css" rel="stylesheet" />
     <script src="/js/data.js"></script>
-    <script src="/pages/library.js"></script>
+    <script src="/pages/library/library.js"></script>
 </head>
 <body>
     <!-- This template is used to display each item in the ListView declared
@@ -38,14 +38,29 @@
                 <h2 class="pagesubtitle win-type-ellipsis"></h2>
             </div>
         </header>
+
+
+
+
         <section aria-label="Main content" role="main">
-            <div class="resultsmessage win-type-x-large">No results match your search.</div>
-            <ul class="filterbar"></ul>
-            <div class="resultslist win-selectionstylefilled" aria-label="Search results" data-win-control="WinJS.UI.ListView" data-win-options="{
-                    selectionMode: 'none',
-                    itemTemplate: select('.itemtemplate'),
-                    oniteminvoked: select('.pagecontrol').winControl.itemInvoked
-                }">
+            <div class="section">
+                <h3>Available feeds</h3>
+                <duv id="library"></duv>
+            </div>
+
+            <div class="section">
+                <h3>Add custom feed</h3>
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="add_name" name="name" aria-label="Enter name of website" />
+                    </div>
+                    <div class="form-group">
+                        <label>URL</label>
+                        <input type="text" id="add_url" url="url" aria-label="Enter name of website" />
+                    </div>
+                    <button type="button" id="add_subscription">Add</button>
+                </form>
             </div>
         </section>
     </div>

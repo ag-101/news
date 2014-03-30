@@ -3,18 +3,19 @@
 
     var list = new WinJS.Binding.List();
     var displayGroups = [];
+    var defaultImage = "/images/default-image-25.png";
 
   //  feeds.push(['bbc f1 video', '/xml/bbcf1video.xml']);
-   // feeds.push(['engadget', "/xml/engadget.xml"]);
+  //  feeds.push(['engadget', "/xml/engadget.xml"]);
     // feeds.push(['bbc f1', "/xml/bbcf1.xml"]);
 
 
     $(document).ready(function () {
         $('body').on('click', '.refresh_feeds', function () {
+            refresh_available = false;
             $('.manual_refresh').addClass('hidden');
-            $('.back-button').click();
-            var appBar = document.getElementById("appbar").winControl;
-            appBar.hide();
+            hideAppBar();
+            WinJS.Navigation.navigate("/pages/items/items.html");
 
             setTimeout(function () {
                 list.splice(0, list.length);
@@ -22,13 +23,11 @@
                 displayGroups = [];
                 loadFeeds();
             }, 1);
-
-
         });
     });
 
     var groupedItems = list.createGrouped(
-        function groupKeySelector(item) { if (item.group) { return item.group.key; } else { return false; } },
+        function groupKeySelector(item) { if (item.group) { return item.group.key; } else { return false; }  },
         function groupDataSelector(item) { return item.group; }
     );
 
@@ -84,12 +83,11 @@
 
                     var groupDescription = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 
-                    var feedImage = "";
+                    
+                    var feedImage = defaultImage;
                     if (xmlDoc.getElementsByTagName("url").length) {
                         feedImage = xmlDoc.getElementsByTagName("url")[0].childNodes[0].nodeValue;
                     }
-
-                    
 
                     displayGroups.push({ key: "group" + count, title: feed[0], subtitle: groupDescription, backgroundImage: addUrlCss(feedImage), description: groupDescription });
 
@@ -132,14 +130,22 @@
                                 parsed_content += "<p>" + $(this).text() + "</p>";
                             }
                         });
-         
-                        list.push({ group: displayGroups[count], title: title, articleImage: image, backgroundImage: addUrlCss(image), subtitle: pubdate, link: link, content: parsed_content });
+            
+                        var displayImage = image;
+                        if (displayImage == defaultImage || displayImage == feedImage) {
+                            displayImage = "";
+                        }
+
+                        list.push({ group: displayGroups[count], title: title, articleImage: displayImage, backgroundImage: addUrlCss(image), subtitle: pubdate, link: link, content: parsed_content });
                     }
                 } else {
-                    popup("It was not possible to load this feed.  It has now been removed from your library.", feed[0]);
+                    popup("It was not possible to load this feed.  It has now been removed from your library.", feed[1]);
                     var position = feeds.indexOf(count);
                     feeds.splice(position, 1);
                     save_feeds(false);
+                    if (feeds.length > 0) {
+                        refresh_available = true;
+                    }
                     return false
                 }
             }

@@ -2,6 +2,7 @@
 // http://go.microsoft.com/fwlink/?LinkID=232447
 
 var feeds = [];
+var refresh_available = false;
 var appData = Windows.Storage.ApplicationData.current.roamingSettings;
 function popup(message_heading, message_body) {
     if (message_heading == undefined) {
@@ -11,6 +12,11 @@ function popup(message_heading, message_body) {
         message_body = "";
     }
     var msg = new Windows.UI.Popups.MessageDialog(message_heading, message_body).showAsync();
+}
+
+function hideAppBar() {
+    var appBar = document.getElementById("appbar").winControl;
+    appBar.hide();
 }
 
 function save_feeds(refresh) {
@@ -38,6 +44,11 @@ function save_feeds(refresh) {
         $('body').on('click', '.sidebar_button', function () {
             var type = $(this).prop('id').split('_');
             WinJS.UI.SettingsFlyout.showSettings(type[1], "/pages/settings/"+type[1]+".html");
+        });
+
+        $('body').on('click', '.library_link', function () {
+            hideAppBar();
+            WinJS.Navigation.navigate("/pages/library/library.html");
         });
 
         WinJS.Application.onsettings = function (e) {

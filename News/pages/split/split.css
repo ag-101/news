@@ -44,6 +44,12 @@ header button {
                 margin-bottom: 16px;
                 margin-top: 5px;
                 width: calc(100% - 28px);
+                cursor:pointer;
+            }
+
+            .splitpage .itemlistsection .itemlist .win-container.win-selected .item {
+                background:#ff8818;
+                cursor:default;
             }
 
                 .splitpage .itemlistsection .itemlist .win-container .win-selectioncheckmark, .splitpage .itemlistsection .itemlist .win-container .win-selectioncheckmarkbackground {
@@ -61,6 +67,9 @@ header button {
                 .splitpage .itemlistsection .itemlist .item .item-image {
                     height: 60px;
                     width: 60px;
+                    background-size:contain;
+                    background-position:center;
+                    background-repeat:no-repeat;
                 }
 
                 .splitpage .itemlistsection .itemlist .item .item-info {

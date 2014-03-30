@@ -7,140 +7,95 @@
     var ui = WinJS.UI;
     var utils = WinJS.Utilities;
 
-    WinJS.UI.Pages.define("/pages/library.html", {
-        _filters: [],
-        _lastSearch: "",
-
+    WinJS.UI.Pages.define("/pages/library/library.html", {
         // This function is called to initialize the page.
         init: function (element, options) {
-            this.itemInvoked = ui.eventHandler(this._itemInvoked.bind(this));
+
         },
 
         // This function is called whenever a user navigates to this page.
         ready: function (element, options) {
-            var listView = element.querySelector(".resultslist").winControl;
-            this._handleQuery(element, options);
-            listView.element.focus();
-        },
+  
+            display_library();
+           
+        }
+    });
 
-        // This function updates the page layout in response to layout changes.
-        updateLayout: function (element) {
-            /// <param name="element" domElement="true" />
+    function display_library() {
 
-            // TODO: Respond to changes in layout.
-        },
+        var library_options = [];
+        library_options.push(['http://www.collegehumor.com/videos/rss', 'College Humor']);
+        library_options.push(['http://feeds.ign.com/ign/all', 'IGN']);
+        library_options.push(['http://www.jest.com/rss', 'Jest']);
+        library_options.push(['http://newsthump.com/feed/', 'NewsThump']);
+        library_options.push(['http://feeds.feedburner.com/thedailymash', 'The Daily Mash']);
+        library_options.push(['http://feeds.theonion.com/theonion/daily', 'The Onion']);
+        library_options.push(['http://www.vanityfair.com/feed/rss/everything.rss.xml', 'Vanity Fair']);
 
-        // This function filters the search data using the specified filter.
-        _applyFilter: function (filter, originalResults) {
-            if (filter.results === null) {
-                filter.results = originalResults.createFiltered(filter.predicate);
-            }
-            return filter.results;
-        },
+        library_options.push(['http://www.autosport.com/rss/allnews.xml', 'Autosport']);
+        library_options.push(['http://newsrss.bbc.co.uk/rss/sportonline_uk_edition/motorsport/formula_one/rss.xml', 'BBC F1']);
+        library_options.push(['http://www.f1fanatic.co.uk/feed/', 'F1 Fanatic']);
+        library_options.push(['http://www.jamesallenonf1.com/feed/', 'James Allen on F1']);
+        library_options.push(['http://www.pitpass.com/fes_php/fes_usr_sit_newsfeed.php', 'Pitpass']);
+        library_options.push(['http://scarbsf1.wordpress.com/feed/', 'ScarbsF1']);
+        library_options.push(['http://wtf1.co.uk/rss', 'WTF1']);
 
-        // This function responds to a user selecting a new filter. It updates the
-        // selection list and the displayed results.
-        _filterChanged: function (element, filterIndex) {
-            var filterBar = element.querySelector(".filterbar");
-            var listView = element.querySelector(".resultslist").winControl;
+        library_options.push(['http://store.steampowered.com/feeds/news.xml', 'Steam Store']);
+        library_options.push(['http://feeds.gawker.com/kotaku/full', 'Kotaku']);
+        library_options.push(['http://www.escapistmagazine.com/rss/videos/list/1.xml', 'Escapist Magazine']);
 
-            utils.removeClass(filterBar.querySelector(".highlight"), "highlight");
-            utils.addClass(filterBar.childNodes[filterIndex], "highlight");
+        library_options.push(['http://animalsbeingdicks.com/rss', 'Animals Being Dicks']);
+        library_options.push(['http://www.guardian.co.uk/profile/davidmitchell/rss', 'David Mitchell']);
+        library_options.push(['http://feeds.feedburner.com/failblog', 'FAIL Blog']);
+        library_options.push(['http://www.iwatchstuff.com/index.xml', 'I Watch Stuff']);
+        library_options.push(['http://feeds.feedburner.com/passiveaggressivenotes?format=xml', 'Passive Aggressive Notes']);
+        library_options.push(['http://feeds.feedburner.com/feedburner/ZdSV', 'The Chive']);
+        library_options.push(['http://feeds.feedburner.com/oatmealfeed', 'The Oatmeal']);
+        library_options.push(['http://feeds.feedburner.com/MthruF', 'MthruF']);
 
-            listView.itemDataSource = this._filters[filterIndex].results.dataSource;
-        },
+        library_options.push(['http://feeds.bbci.co.uk/news/rss.xml', 'BBC News']);
+        library_options.push(['http://feeds.guardian.co.uk/theguardian/us-home/rss', 'The Guardian']);
+        library_options.push(['http://www.iflscience.com/rss.xml', 'I Fucking Love Science']);
+        library_options.push(['http://feeds.gawker.com/lifehacker/full', 'Lifehacker']);
 
-        _generateFilters: function () {
-            this._filters = [];
-            this._filters.push({ results: null, text: "All", predicate: function (item) { return true; } });
+        library_options.push(['http://www.engadget.com/rss-full.xml', 'Engadget']);
+        library_options.push(['http://feeds.gawker.com/gawker/full', 'Gawker']);
+        library_options.push(['http://feeds.feedburner.com/geekologie/iShm', 'Geekologie']);
+        library_options.push(['http://gizmodo.com/rss', 'Gizmodo']);
+        library_options.push(['http://feedproxy.google.com/TechCrunch', 'TechCrunch']);
+        library_options.push(['http://www.theverge.com/rss/index.xml', 'The Verge']);
 
-            // TODO: Replace or remove example filters.
-            this._filters.push({ results: null, text: "Group 1", predicate: function (item) { return item.group.key === "group1"; } });
-            this._filters.push({ results: null, text: "Group 2+", predicate: function (item) { return item.group.key !== "group1"; } });
-        },
 
-        // This function executes each step required to perform a search.
-        _handleQuery: function (element, args) {
-            var originalResults;
-            this._lastSearch = args.queryText;
-            WinJS.Namespace.define("library", { markText: WinJS.Binding.converter(this._markText.bind(this)) });
-            this._initializeLayout(element);
-            this._generateFilters();
-            originalResults = this._searchData(args.queryText);
-            if (originalResults.length === 0) {
-                document.querySelector('.filterbar').style.display = "none";
-            } else {
-                document.querySelector('.resultsmessage').style.display = "none";
-            }
-            this._populateFilterBar(element, originalResults);
-            this._applyFilter(this._filters[0], originalResults);
-        },
+        library_options = library_options.sort(function (a, b) {
+            return a[1] > b[1];
+        });
 
-        _initializeLayout: function (element) {
-            // TODO: Change "App Name" to the name of your app.
-            element.querySelector(".titlearea .pagetitle").textContent = "App Name";
-            element.querySelector(".titlearea .pagesubtitle").textContent = "Results for “" + this._lastSearch + '”';
-        },
 
-        _itemInvoked: function (args) {
-            args.detail.itemPromise.done(function itemInvoked(item) {
-                // TODO: Navigate to the item that was invoked.
-            });
-        },
+        var library_html = "";
+        library_options.forEach(function (item) {
+            library_html += '<button id="' + item[0] + '"> ' + item[1] + '</button>';
+        });
 
-        // This function colors the search term. Referenced in /pages/library.html
-        // as part of the ListView item templates.
-        _markText: function (text) {
-            return text.replace(this._lastSearch, "<mark>" + this._lastSearch + "</mark>");
-        },
 
-        // This function generates the filter selection list.
-        _populateFilterBar: function (element, originalResults) {
-            var filterBar = element.querySelector(".filterbar");
-            var listView = element.querySelector(".resultslist").winControl;
-            var li, option, filterIndex;
+        $('#library').html(library_html);
+    }
 
-            filterBar.innerHTML = "";
-            for (filterIndex = 0; filterIndex < this._filters.length; filterIndex++) {
-                this._applyFilter(this._filters[filterIndex], originalResults);
+    function add_subscription(name, url) {
+        feeds.push([name, url]);
+        save_feeds(false);
+        refresh_available = true;
+        WinJS.UI.SettingsFlyout.showSettings('subscriptions', "/pages/settings/subscriptions.html");
+    }
 
-                li = document.createElement("li");
-                li.filterIndex = filterIndex;
-                li.tabIndex = 0;
-                li.textContent = this._filters[filterIndex].text + " (" + this._filters[filterIndex].results.length + ")";
-                li.onclick = function (args) { this._filterChanged(element, args.target.filterIndex); }.bind(this);
-                li.onkeyup = function (args) {
-                    if (args.key === "Enter" || args.key === "Spacebar")
-                        this._filterChanged(element, args.target.filterIndex);
-                }.bind(this);
-                utils.addClass(li, "win-type-interactive");
-                utils.addClass(li, "win-type-x-large");
-                filterBar.appendChild(li);
+    $('body').on('click', '#library button', function(){
+        add_subscription($(this).text(), $(this).prop('id'));
+    });
 
-                if (filterIndex === 0) {
-                    utils.addClass(li, "highlight");
-                    listView.itemDataSource = this._filters[filterIndex].results.dataSource;
-                }
-
-                option = document.createElement("option");
-                option.value = filterIndex;
-                option.textContent = this._filters[filterIndex].text + " (" + this._filters[filterIndex].results.length + ")";
-            }
-        },
-
-        // This function populates a WinJS.Binding.List with search results for the
-        // provided query.
-        _searchData: function (queryText) {
-            var originalResults;
-            // TODO: Perform the appropriate search on your data.
-            if (window.Data) {
-                originalResults = Data.items.createFiltered(function (item) {
-                    return (item.title.indexOf(queryText) >= 0 || item.subtitle.indexOf(queryText) >= 0 || item.description.indexOf(queryText) >= 0);
-                });
-            } else {
-                originalResults = new WinJS.Binding.List();
-            }
-            return originalResults;
+    $('body').on('click', '#add_subscription', function () {
+        var name = $('#add_name').val();
+        var url = $('#add_url').val();
+        if (name && url) {
+            add_subscription(name, url);
         }
     });
 })();

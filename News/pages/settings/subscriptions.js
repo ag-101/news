@@ -12,7 +12,9 @@
         ready: function (element, options) {
             // Register the handlers for dismissal
             document.getElementById("defaultSettingsFlyout").addEventListener("keydown", handleKeys);
-      
+            if (refresh_available) {
+                $('.manual_refresh').removeClass('hidden');
+            }
 
             display_feeds();
         },
@@ -39,18 +41,6 @@
 
         $('#subscriptions_list').html(feeds_html);
     }
-
-    function feedRemove() {
-        popup("click");
-    }
-
-    $('body').on('click', '#add_subscription', function () {
-        var name = $('#add_name').val();
-        var url = $('#add_url').val();
-        feeds.push([name, url]);
-        save_feeds(true);
-        display_feeds();
-    });
 
     $('body').on('click', '.feed-remove', function () {
         var id = $(this).prop('id').split('_');

@@ -26,18 +26,6 @@ button {
     cursor: pointer;
 }
 
-.item-image, .article-image {
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-
-.feed-image {
-    background-position:center;
-    background-repeat:no-repeat;
-}
-
-
 .fragment {
     /* Define a grid with rows for a banner and a body */
     -ms-grid-columns: 1fr;
