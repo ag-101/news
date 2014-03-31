@@ -1,6 +1,64 @@
 ﻿// For an introduction to the Split template, see the following documentation:
 // http://go.microsoft.com/fwlink/?LinkID=232447
 
+
+var dbPath = Windows.Storage.ApplicationData.current.localFolder.path + '\\db.sqlite';
+/*
+
+var db = SQLite3JS.openAsync(dbPath)
+.then(function (db) {
+   return db.runAsync('SELECT * FROM Item')
+  // .then(function () {
+       // return db.runAsync('INSERT INTO Item (name, price, id) VALUES (?, ?, ?)', ['Mango', 4.6, 123]);
+  //  })
+    .then(function () {
+        return db.eachAsync('SELECT * FROM Item', function (row) {
+            popup('Get a ' + row.name + ' for $' + row.price);
+        });
+    })
+    .then(function () {
+        db.close();
+    });
+});*/
+
+function sqlQuery(query, callback) {
+    SQLite3JS.openAsync(dbPath).then(function (db2) {
+        db2.runAsync(query).then(function(){
+            db2.close();
+            if (callback) {
+                callback();
+            }
+        });
+    });
+}
+
+function sqlSelect(query, callback) {
+    var results = [];
+    SQLite3JS.openAsync(dbPath).then(function (db) {
+        var index = 0;
+        db.eachAsync(query, function (row) {
+            var rowResults = {};
+            rowResults[index] = row;
+            results.push(rowResults);
+            ++index;
+        }).then(function(){
+            db.close();
+            callback(results);
+        });
+    });
+}
+
+function selectAfter() {
+    sqlSelect('SELECT * FROM Library', handleResults);
+};
+
+function handleResults(rows) {
+    rows.forEach(function (value, index) {
+        console.dir(value[index].name);
+    });
+}
+
+
 var feeds = [];
 var refresh_available = false;
 var appData = Windows.Storage.ApplicationData.current.roamingSettings;

@@ -22,60 +22,21 @@
     });
 
     function display_library() {
+        sqlSelect('SELECT LibraryCategory.name as category, Library.name, Library.url FROM Library INNER JOIN LibraryCategory ON LibraryCategory.id = Library.library_category ORDER BY LibraryCategory.id, Library.name', populateLibrary)
+    }
 
-        var library_options = [];
-        library_options.push(['http://www.collegehumor.com/videos/rss', 'College Humor']);
-        library_options.push(['http://feeds.ign.com/ign/all', 'IGN']);
-        library_options.push(['http://www.jest.com/rss', 'Jest']);
-        library_options.push(['http://newsthump.com/feed/', 'NewsThump']);
-        library_options.push(['http://feeds.feedburner.com/thedailymash', 'The Daily Mash']);
-        library_options.push(['http://feeds.theonion.com/theonion/daily', 'The Onion']);
-        library_options.push(['http://www.vanityfair.com/feed/rss/everything.rss.xml', 'Vanity Fair']);
-
-        library_options.push(['http://www.autosport.com/rss/allnews.xml', 'Autosport']);
-        library_options.push(['http://newsrss.bbc.co.uk/rss/sportonline_uk_edition/motorsport/formula_one/rss.xml', 'BBC F1']);
-        library_options.push(['http://www.f1fanatic.co.uk/feed/', 'F1 Fanatic']);
-        library_options.push(['http://www.jamesallenonf1.com/feed/', 'James Allen on F1']);
-        library_options.push(['http://www.pitpass.com/fes_php/fes_usr_sit_newsfeed.php', 'Pitpass']);
-        library_options.push(['http://scarbsf1.wordpress.com/feed/', 'ScarbsF1']);
-        library_options.push(['http://wtf1.co.uk/rss', 'WTF1']);
-
-        library_options.push(['http://store.steampowered.com/feeds/news.xml', 'Steam Store']);
-        library_options.push(['http://feeds.gawker.com/kotaku/full', 'Kotaku']);
-        library_options.push(['http://www.escapistmagazine.com/rss/videos/list/1.xml', 'Escapist Magazine']);
-
-        library_options.push(['http://animalsbeingdicks.com/rss', 'Animals Being Dicks']);
-        library_options.push(['http://www.guardian.co.uk/profile/davidmitchell/rss', 'David Mitchell']);
-        library_options.push(['http://feeds.feedburner.com/failblog', 'FAIL Blog']);
-        library_options.push(['http://www.iwatchstuff.com/index.xml', 'I Watch Stuff']);
-        library_options.push(['http://feeds.feedburner.com/passiveaggressivenotes?format=xml', 'Passive Aggressive Notes']);
-        library_options.push(['http://feeds.feedburner.com/feedburner/ZdSV', 'The Chive']);
-        library_options.push(['http://feeds.feedburner.com/oatmealfeed', 'The Oatmeal']);
-        library_options.push(['http://feeds.feedburner.com/MthruF', 'MthruF']);
-
-        library_options.push(['http://feeds.bbci.co.uk/news/rss.xml', 'BBC News']);
-        library_options.push(['http://feeds.guardian.co.uk/theguardian/us-home/rss', 'The Guardian']);
-        library_options.push(['http://www.iflscience.com/rss.xml', 'I Fucking Love Science']);
-        library_options.push(['http://feeds.gawker.com/lifehacker/full', 'Lifehacker']);
-
-        library_options.push(['http://www.engadget.com/rss-full.xml', 'Engadget']);
-        library_options.push(['http://feeds.gawker.com/gawker/full', 'Gawker']);
-        library_options.push(['http://feeds.feedburner.com/geekologie/iShm', 'Geekologie']);
-        library_options.push(['http://gizmodo.com/rss', 'Gizmodo']);
-        library_options.push(['http://feedproxy.google.com/TechCrunch', 'TechCrunch']);
-        library_options.push(['http://www.theverge.com/rss/index.xml', 'The Verge']);
-
-
-        library_options = library_options.sort(function (a, b) {
-            return a[1] > b[1];
-        });
-
-
+    function populateLibrary(library_options) {
         var library_html = "";
-        library_options.forEach(function (item) {
-            library_html += '<button id="' + item[0] + '"> ' + item[1] + '</button>';
-        });
+        var current_category = 0;
 
+        library_options.forEach(function (item, index) {
+            if (item[index].category != current_category) {
+                current_category = item[index].category;
+                library_html += '<h3>' + item[index].category + '</h3>';
+            }
+
+            library_html += '<button id="' + item[index].url + '"> ' + item[index].name + '</button>';
+        });
 
         $('#library').html(library_html);
     }
